@@ -1,7 +1,7 @@
 {
+  "homepage": "https://github.com/Jitender-Singh-NWM/portfolio",
   "name": "3dfolio",
   "private": true,
-  "homepage": "https://github.com/Jitender-Singh-NWM/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
