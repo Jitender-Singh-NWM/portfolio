@@ -191,26 +191,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
+      "Provides effecient solutions and delviers the solutions in given time .",
+    name: "Stan Lee",
+    designation: "CTO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a Salesforce developer who truly cares about their clients' success like Rick does.",
+    name: "Chris Mark",
+    designation: "Arcitect",
+    company: "Salesforce",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Lisa Chong",
     designation: "CTO",
-    company: "456 Enterprises",
+    company: "Sigma",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
