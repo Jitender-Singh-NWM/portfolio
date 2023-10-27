@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./js.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -25,6 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import skience from "./company/skience.jpg";
+import sf from "./company/sf.png";
+import TD from "./company/TD_Bank.png";
+import Shivathene from "./company/Shivathene.png"; 
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,4 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  skience,
+  sf,
+  TD,
+  Shivathene
 };

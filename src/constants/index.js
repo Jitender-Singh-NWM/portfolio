@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  skience,
+  sf,
+  TD,
+  Shivathene,
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +46,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Salesforce Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Javascript Developer",
     icon: mobile,
   },
   {
@@ -61,8 +65,8 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Salesforce",
+    icon: sf,
   },
   {
     name: "CSS 3",
@@ -73,9 +77,10 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "HTML 5",
+    icon: html,
   },
+  
   {
     name: "React JS",
     icon: reactjs,
@@ -116,53 +121,67 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Salesforce R&D Developer",
+    company_name: "Skience",
+    icon: skience,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2019 - December 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Worked as part of R&D team and worked/exposed to many new technologies with an amazing team.",
+      "Developing and maintaining web applications using Salesforrce and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Implementing effecient solutions and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Developer",
+    company_name: "The Athene Group",
+    icon: Shivathene,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2016 - April 2016",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Customizing the Salesforce applications,building packages.Implementing Batch classes,triggers and Aura components",
+      "Working with cleints and implmenting the best soultions possible solutions.",
+      "MIgrating functionalities from classic to Lighting.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Associate Software Developer",
+    company_name: "TD Bank",
+    icon: TD,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Working with the TD Bank team to implement customizations of the Salesforce application as needed.",
+      "Solved many issues related to design and worked on many enhancements.",
+      "Implmented the Salesforce Experience cloud as discussed with client.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Insight Global",
+    company_name: "Salesforce",
+    icon: sf,
+    iconBg: "#E6DEDD",
+    date: "Jan 2016 - Demember-2016",
+    points: [
+      "Worked on Sales and Service Cloud to implement the Concole Application.",
+      "Implemented the Reports and dashboards as required by the Client.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "T Mobile",
+    company_name: "Salesforce",
+    icon: sf,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2015 - Demember-2015",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Worked on Sales and Service Cloud to implement the Concole Application.",
+      "Implemented the Reports and dashboards as required by the Client.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
