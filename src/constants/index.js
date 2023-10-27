@@ -180,7 +180,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2015 - Demember-2015",
     points: [
-      "Worked on Sales and Service Cloud to implement the Concole Application.",
+      "Worked on Sales and Service Cloud to implement the Console Application.",
       "Implemented the Reports and dashboards as required by the Client.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -191,7 +191,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Provides effecient solutions and delviers the solutions in given time .",
+      "Jitender Singh provides effecient solutions and delivers the solutions in given time .",
     name: "Stan Lee",
     designation: "CTO",
     company: "Acme Co",
@@ -199,7 +199,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a Salesforce developer who truly cares about their clients' success like Rick does.",
+      "I've never met a Salesforce developer who truly cares about their clients' success like Jitender Singh does.",
     name: "Chris Mark",
     designation: "Arcitect",
     company: "Salesforce",
@@ -207,7 +207,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Jitender Singh optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Chong",
     designation: "CTO",
     company: "Sigma",
