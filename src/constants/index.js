@@ -217,20 +217,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Skience",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "SKience is Financial Application built on salesforce platform.It has many integrations with quick forms,E-Sign,Envestnest,STP. ",
     tags: [
       {
-        name: "react",
+        name: "Salesforce",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Veu.Js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "APEX",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "LWC",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AURA",
         color: "pink-text-gradient",
       },
     ],
@@ -238,12 +246,12 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "TD Bank",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "TD Bank, N.A. is an American national bank and the United States subsidiary of the multinational TD Bank Group. It operates primarily across the East Coast, in fifteen U.S. states and Washington, D.C.",
     tags: [
       {
-        name: "react",
+        name: "Salesforce",
         color: "blue-text-gradient",
       },
       {
@@ -251,7 +259,14 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "AURA",
+        color: "pink-text-gradient",
+      },{
+        name: "LWC",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AURA",
         color: "pink-text-gradient",
       },
     ],
@@ -259,24 +274,31 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Shiva Athene Technologies",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Software Solutions firm which deals with all the feed files from different vendors and loads into dofferent applications.",
     tags: [
       {
-        name: "nextjs",
+        name: "Salesforce",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: ".Net",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },{
+        name: "LWC",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AURA",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: carrent,
     source_code_link: "https://github.com/",
   },
 ];

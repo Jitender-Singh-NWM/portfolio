@@ -1,4 +1,4 @@
-import logo from "./js.svg";
+import logo from "./js.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -31,8 +31,8 @@ import TD from "./company/TD_Bank.png";
 import Shivathene from "./company/Shivathene.png"; 
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import carrent from "./sk.png";
+import jobit from "./Sforg.png";
 import tripguide from "./tripguide.png";
 
 export {
