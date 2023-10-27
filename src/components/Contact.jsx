@@ -6,8 +6,11 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const Contact = () => {
+  
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -33,8 +36,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_7ruwi8n",
+        "template_wa8786u",
         {
           from_name: form.name,
           to_name: "Jitender Singh",
@@ -42,12 +45,17 @@ const Contact = () => {
           to_email: "jithu.cbit@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "EMvuOJ96A-gbLhM8s"
       )
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          toast.configure();
+          //toast.success('Thank you. I will get back to you as soon as possible.',{position: toast.POSITION.BOTTOM_LEFT}) 
+          toast.success('Thank you. I will get back to you as soon as possible.', {
+            // Set to 15sec
+            position: toast.POSITION.BOTTOM_LEFT, autoClose:15000})
+          //alert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",
@@ -58,8 +66,11 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          toast.error('Ahh, something went wrong. Please try again.', {
+            // Set to 15sec
+            position: toast.POSITION.BOTTOM_LEFT, autoClose:15000})
+           
+          //alert("Ahh, something went wrong. Please try again.");
         }
       );
   };
