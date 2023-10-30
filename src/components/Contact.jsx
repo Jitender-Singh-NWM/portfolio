@@ -50,7 +50,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          toast.configure();
+          //toast.configure();
           //toast.success('Thank you. I will get back to you as soon as possible.',{position: toast.POSITION.BOTTOM_LEFT}) 
           toast.success('Thank you. I will get back to you as soon as possible.', {
             // Set to 15sec
